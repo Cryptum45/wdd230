@@ -1,7 +1,17 @@
+
+p, ul, main, body {
+    font-family: 'Barlow', sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
   text-align: center;
   font-size: 2em;
-  background-color: #010661;
   color: white;
 }
 
@@ -10,7 +20,6 @@ p {
   }
 
 body{
-    background-color: #ffffff;
     padding: 1em;
 }
 
@@ -24,7 +33,7 @@ body{
 
 header,footer{
     background-color: #002fff;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: .5em;
     border-radius: .8em;
@@ -32,14 +41,12 @@ header,footer{
 }
 
 header img{
-    float: none;
-    max-width: 9em;
+    width: 200px;
     box-shadow: 0 3px 3px black;
-}
-
-header h1{
-    margin:0;
-    font-size: 1.8em;
+    display: grid;
+    grid-template-columns:200px, 1fr ;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
@@ -56,7 +63,7 @@ main ul li{
 }
 
 footer a{
-    color: #fff;
+    color: white;
 }
 
 footer p:last-of-type{
