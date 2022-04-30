@@ -47,6 +47,7 @@ footer {
 }
 
 main {
+    display: grid;
     padding: 1em;
     text-align: center;
 }
