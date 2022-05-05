@@ -1,5 +1,11 @@
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
 .topic{
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
 }
 .name {
@@ -11,20 +17,21 @@
     background-color: #0e6d0c;
 }
 header {
-  justify-content: center;
-  display: flex;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    display: flex;
 }
 h1 {
   text-align: center;
   font-size: 2em;
-  color: white;
+  color: black;
 }
 
 
 body{
-    
+    font-family: 'Open Sans', sans-serif;
     padding: 1em;
-    font-family: 'Barlow', sans-serif;
+    
 }
 
 .container {
@@ -86,4 +93,42 @@ nav ul {
     padding: 10px;
     display: grid;
     justify-content: center;
+}
+
+.people{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.people img{
+    justify-content: center;
+}
+
+
+/* SMALL */
+@media screen and (max-width: 480px) {
+
+    body{
+        padding: .2em;
+    }
+    .people{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container{
+        margin: auto;
+        display: block;
+    }
+    
+    nav a{
+        text-align: center;
+        display: block;
+    }
+    nav ul{
+        display: block;
+    }
+   
 }
