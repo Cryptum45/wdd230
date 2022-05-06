@@ -74,6 +74,9 @@ p {
     padding: 10px;
 }
 
+picture{
+    box-shadow: 2 2 0 gray;
+}
 
 .name {
     font-size: 2.5em;
