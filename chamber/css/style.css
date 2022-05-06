@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+}
+
+.container {
+    background-color: #edeef3;
+}
+
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #0e6d0c;
+    color: white;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    
+   
+  }
+  
+  h2{
+      
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+  h3{
+      padding: 10px;
+        font-family: 'Merriweather', serif;
+        font-size: 30px;
+        text-align: center;
+  }
+
+nav{
+    background-color: #1d8d1b;
+}
+  .navmenu {
+    list-style: none;
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  .navmenu{
+      text-align: center;
+  }
+
+  .navmenu a {
+      display: block;
+      padding: 1rem;
+     text-decoration: none;
+     color: white;
+  }
+  .navmenu a:hover {
+      background-color: #46a044;
+      color:black;
+  }
+  
+  header img{
+    width: 200px;
+    box-shadow: 0 3px 3px black;
+}
+
+p {
+    padding: 10px;
+}
+
+.hero{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.event{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.weather{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.news{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.spotlight{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.spotlight1{
+    
+    border-style: solid;
+}
+
+.spotlight2{
+    
+    border-style: solid;
+}
+
+.join{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+     
+
+
+main{
+    padding: 1em;
+}
+footer{
+    background-color: #0e6d0c;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+}
+
+footer a{
+    color: white;
+}
+
+footer p:last-of-type{
+    color: yellow;
+    font-weight: 400;
+}
+
+
+
+.logo{
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.people{
+    padding: 20px;
+    display: block;
+}
+
+
+
+
+/* Medium */
+@media screen and (min-width: 720px) {
+
+    .container{
+        max-width: 760px;
+        margin: 0 auto;
+    }
+
+    .navmenu a{
+        text-align: center;
+    }
+    .navmenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .navmenu li{
+        flex: 1 1 auto;
+    }
+
+   
+    
+   
+   
+}
+/*Large*/
+@media screen and (max-width: 800px){
+    .join{
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+    }
+}
