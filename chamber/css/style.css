@@ -27,51 +27,12 @@ h1 {
     
    
   }
-  
-  h2{
-      
-      text-align: center;
-      font-size: 1.5rem;
-  }
-
-  h3{
-      padding: 10px;
-        font-family: 'Merriweather', serif;
-        font-size: 30px;
-        text-align: center;
-  }
-
 nav{
     background-color: #1d8d1b;
 }
-  .navmenu {
-    list-style: none;
-    display: block;
-    font-size: 1.3rem;
-  }
 
-  .navmenu{
-      text-align: center;
-  }
-
-  .navmenu a {
-      display: block;
-      padding: 1rem;
-     text-decoration: none;
-     color: white;
-  }
-  .navmenu a:hover {
-      background-color: #46a044;
-      color:black;
-  }
-  
-  header img{
-    width: 200px;
-    box-shadow: 0 3px 3px black;
-}
-
-p {
-    padding: 10px;
+.social{
+    box-shadow: none;
 }
 
 .hero{
@@ -111,13 +72,59 @@ p {
     
     border-style: solid;
 }
+.spotlight3{
+    
+    border-style: solid;
+}
 
 .join{
     margin: 20px;
     padding: 10px;
     background-color: white;
 }
-     
+
+  .navmenu {
+    list-style: none;
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  .navmenu{
+      text-align: center;
+  }
+
+  .navmenu a {
+      display: block;
+      padding: 1rem;
+     text-decoration: none;
+     color: white;
+  }
+  .navmenu a:hover {
+      background-color: #46a044;
+      color:black;
+  }
+  
+  header img{
+    width: 200px;
+    box-shadow: 0 3px 3px black;
+}
+
+p {
+    padding: 10px;
+}
+
+picture{
+    box-shadow: 2 2 0 gray;
+}
+
+.name {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+    background-color: #0e6d0c;
+}
 
 
 main{
@@ -148,45 +155,76 @@ footer p:last-of-type{
     display: grid;
     justify-content: center;
 }
+/*************************************************************************************/
+@media screen and (max-width: 550px){
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
 
-.people{
-    padding: 20px;
-    display: block;
+.navmenu {
+	list-style: none;
+	padding: 0;
+}
+.navmenu li:first-child {
+	display: block;
+}
+.navmenu li {
+	display: none;
+}
+.navmenu a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navmenun a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
 }
 
 
-
-
+/***************************************************************************************/
 /* Medium */
-@media screen and (min-width: 720px) {
-
-    .container{
-        max-width: 760px;
-        margin: 0 auto;
-    }
-
-    .navmenu a{
-        text-align: center;
-    }
-    .navmenu{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .navmenu li{
-        flex: 1 1 auto;
-    }
-
-   
+    @media only screen and (min-width: 32.5em) {
+        .navmenu {
+            display: flex;
+        }
+        .navmenu li {
+            display: block; /* change state in small view */
+            flex: 1 1 auto;
+        }
+        .navmenu a {
+            text-align: center;
+        }
+        .navmenu li:first-child {
+            display: none;
+        }
+        .container{
+            max-width: 760px;
+            margin: 0 auto;
+        }
     
-   
-   
-}
-/*Large*/
-@media screen and (max-width: 800px){
-    .join{
-        margin: 20px;
-        padding: 10px;
-        background-color: white;
+        .navmenu a{
+            text-align: center;
+        }
+        .navmenu{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
     }
-}
