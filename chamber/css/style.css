@@ -15,10 +15,21 @@ body{
 }
 
 header {
+    display: flex;
     font-family: 'Merriweather', serif;
     background-color: #0e6d0c;
     color: white;
     padding: 1rem;
+}
+
+.social{
+    display: flex;
+}
+
+.date{
+    text-align: center;
+    background-color: #46a044;
+    color: white;
 }
 
 h1 {
@@ -29,10 +40,6 @@ h1 {
   }
 nav{
     background-color: #1d8d1b;
-}
-
-.social img{
-    box-shadow: none;
 }
 
 .hero{

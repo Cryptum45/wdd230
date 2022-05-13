@@ -5,6 +5,8 @@ document.getElementById("currentYear").textContent = d.getFullYear();
 let lastUpdated = document.lastModified;
 
 document.getElementById("updatedDate").textContent = lastUpdated;
+document.getElementById("currentDate").textContent = d;
+
 
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navmenu')
