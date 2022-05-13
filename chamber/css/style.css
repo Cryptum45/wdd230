@@ -22,9 +22,6 @@ header {
     padding: 1rem;
 }
 
-.social{
-    display: flex;
-}
 
 .date{
     text-align: center;
@@ -130,15 +127,6 @@ picture{
     box-shadow: 2 2 0 gray;
 }
 
-.name {
-    font-size: 2.5em;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
-    background-color: #0e6d0c;
-}
-
 
 main{
     padding: 1em;
@@ -161,13 +149,6 @@ footer p:last-of-type{
     font-weight: 400;
 }
 
-
-
-.logo{
-    padding: 10px;
-    display: grid;
-    justify-content: center;
-}
 /*************************************************************************************/
 @media screen and (max-width: 550px){
 nav {
@@ -210,33 +191,8 @@ nav {
 
 }
 
+.footerlogo{
+    width: 100px;
+}
 
 /***************************************************************************************/
-/* Medium */
-    @media only screen and (min-width: 32.5em) {
-        .navmenu {
-            display: flex;
-        }
-        .navmenu li {
-            display: block; /* change state in small view */
-            flex: 1 1 auto;
-        }
-        .navmenu a {
-            text-align: center;
-        }
-        .navmenu li:first-child {
-            display: none;
-        }
-        .container{
-            margin: 0 auto;
-        }
-    
-        .navmenu a{
-            text-align: center;
-        }
-        .navmenu{
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-        }
-    }

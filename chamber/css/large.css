@@ -1,0 +1,29 @@
+/* Large */
+@media only screen and (min-width: 32.5em) {
+    .navmenu {
+        display: flex;
+    }
+    .navmenu li {
+        display: block; 
+        flex: 1 1 auto;
+    }
+    .navmenu a {
+        text-align: center;
+    }
+    .navmenu li:first-child {
+        display: none;
+    }
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .navmenu a{
+        text-align: center;
+    }
+    .navmenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
