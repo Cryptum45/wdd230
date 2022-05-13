@@ -31,7 +31,7 @@ nav{
     background-color: #1d8d1b;
 }
 
-.social{
+.social img{
     box-shadow: none;
 }
 
@@ -105,9 +105,15 @@ nav{
   }
   
   header img{
-    width: 200px;
+    height: 100px;
     box-shadow: 0 3px 3px black;
 }
+
+.social img{
+    height: 48px;
+    box-shadow: none;
+}
+
 
 p {
     padding: 10px;
