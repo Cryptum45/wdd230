@@ -23,7 +23,6 @@ main{
 }
 
 header {
-    display: flex;
     font-family: 'Merriweather', serif;
     background-color: #0e6d0c;
     color: white;
@@ -93,12 +92,14 @@ nav{
     border-style: solid;
 }
 .spotlight3{
+    display: none;
     position: relative;
     padding: 0 10px;
     border-style: solid;
 }
 
 .join{
+    display: none;
     margin: 20px;
     padding: 10px;
     background-color: white;
@@ -127,7 +128,7 @@ nav{
   
   header img{
     height: 100px;
-    box-shadow: 0 3px 3px black;
+    box-shadow: 0 3px 3px 3px #46a044;
 }
 
 .social img{

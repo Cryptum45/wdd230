@@ -1,5 +1,8 @@
 /*large*/
 @media screen and (min-width: 64em) { 
+    header{
+        display: flex;
+    }
     .navmenu {
         display: flex;
     }
@@ -44,6 +47,7 @@
         grid-column: 1/2;
     }
     .join {
+        display: block;
         grid-row: 3/4;
         grid-column: 1/2;
     }

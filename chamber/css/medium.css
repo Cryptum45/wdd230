@@ -1,5 +1,8 @@
 /* medium */
 @media only screen and (min-width: 32.5em) {
+    header{
+        display: flex;
+    }
     .notsmall {
         display: block;
     }
@@ -29,6 +32,7 @@
     }
 
     .join {
+        display: block;
         grid-row: 4/5;
         grid-column: 1/4;
     }
