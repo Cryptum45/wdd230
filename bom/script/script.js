@@ -8,17 +8,17 @@ button.addEventListener('click', () => {
 
   const bookChap2 = document.createElement('li');
   const textList = document.createElement('span');
-  const removeButton = document.createElement('button');
+  const deleteButton = document.createElement('button');
 
   list.appendChild(bookChap2);
   bookChap2.appendChild(textList)
   textList.textContent = bookChap;
   
   
-  bookChap2.appendChild(removeButton);
-  removeButton.textContent = 'X';
+  bookChap2.appendChild(deleteButton);
+  deleteButton.textContent = '❌';
 
-  removeButton.addEventListener('click', () => {
+  deleteButton.addEventListener('click', () => {
     list.removeChild(bookChap2);
   });
 
