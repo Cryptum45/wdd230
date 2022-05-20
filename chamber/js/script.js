@@ -13,6 +13,7 @@ document.getElementById("updatedDate").textContent = lastUpdated;
 
 
 
+
 /**makes the nav turn in to a drop down menu in small screen */
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navmenu')

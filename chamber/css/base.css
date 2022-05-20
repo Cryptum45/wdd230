@@ -31,6 +31,7 @@ header {
 
 
 .date{
+    padding: 10px;
     text-align: center;
     background-color: #46a044;
     color: white;
@@ -47,17 +48,31 @@ nav{
     background-color: #1d8d1b;
 }
 
+
+/*Hero stuff*/
+.heropara{
+    background-color: #1d8d1b;
+}
+
 .hero{
     margin: 20px;
     padding: 10px;
     background-color: white;
 }
 
+.hills{
+    max-width: 540px;
+}
+/******************************/
+
+/*event stuff*/
+
 .event{
     margin: 20px;
     padding: 10px;
     background-color: white;
 }
+/******************************/
 .weather{
     margin: 20px;
     padding: 10px;
