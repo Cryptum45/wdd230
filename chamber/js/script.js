@@ -25,12 +25,13 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 /**********************************************************************************************/
 
 /**meet and join banner */
-const meeting = document.getElementById("meeting")
+const banner = document.getElementById("meeting");
 if (d === 1 || d === 2) {
-    meeting.style.display = "block";
+    banner.style.display = "block";
 }
 
-const button2 = document.querySelector("#button2");
-button2.addEventListener("#click", () => {
-    meeting.style.display = "none";
+const close = document.getElementById("close");
+
+close.addEventListener("click", () => {
+    banner.style.display = "none";
 });

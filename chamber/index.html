@@ -21,8 +21,7 @@
 <body>
     
     <div class="container">
-        <div id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. <button id="button2">X</button>
-        </div>
+        <div id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. <button id="close">X</button></div>
         
         <header>
             <img src="images/logosun.png" alt="Logo">
@@ -60,7 +59,13 @@
             <div class="hero">
                 <h2>Welcome to Hill Shire</h2>
                 <!--<a class="heropara" href="join.html" target="_blank">Join the Chamber</a>-->
-               <img class="hills" src="images/greenhills.jpg" alt="greenhills" >
+               <!--<img class="hills" src="images/greenhills.jpg" alt="greenhills" >-->
+               <picture>
+                <source media="(max-width: 512px)" srcset="images/small.jpg">
+                <source media="(max-width: 600px)" srcset="images/medium.jpg">
+                <source media="(max-width: 800px)" srcset="images/large.jpg">
+                <img src="images/large.jpg" alt="hero image">
+            </picture>
 
             </div>
             <div class="event">
@@ -75,9 +80,13 @@
                 <h4>Weather</h4>
                 <br>
                 <img src="images/Weatherpic.png" alt="weatherpic" >
-                <p>72 degrees F</p>
-                <p>Mostly Sunny</p>
-
+                <p>Currently: Cloudy</p>
+                <p>High: 
+                <span id="temp">70</span>°F</p>
+                <p>Wind Chill: <span id="windchill">0</span>°F</p>
+                <p>Humidity: 40%</p>
+                <p>Wind Speed: 
+                <span id="windspeed">11</span>mph </p>
             </div>
             <div class="news">
                 <h4> News release</h4>
