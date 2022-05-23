@@ -1,26 +1,31 @@
-const list = document.querySelector('ul');
-const input = document.querySelector('input');
-const button = document.querySelector('button');
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+const list = document.querySelector("ul");
 
 button.addEventListener('click', () => {
-  const bookChap = input.value;
-  input.value = '';
 
-  const bookChap2 = document.createElement('li');
-  const textList = document.createElement('span');
-  const deleteButton = document.createElement('button');
+    if (input.value !== "") {
 
-  list.appendChild(bookChap2);
-  bookChap2.appendChild(textList)
-  textList.textContent = bookChap;
-  
-  
-  bookChap2.appendChild(deleteButton);
-  deleteButton.textContent = '❌';
+        
+        const bookChap = document.createElement("li");
+        const deleteButton = document.createElement("button");
 
-  deleteButton.addEventListener('click', () => {
-    list.removeChild(bookChap2);
-  });
+        
+        bookChap.textContent = input.value;
+        deleteButton.textContent = "❌";
 
-  input.focus();
+        
+       bookChap.appendChild(deleteButton);
+        list.appendChild(bookChap);
+
+        
+        input.value = '';
+        input.focus();
+
+        deleteButton.addEventListener('click', () => {
+
+            list.removeChild(bookChap);
+
+        });
+    };
 });
