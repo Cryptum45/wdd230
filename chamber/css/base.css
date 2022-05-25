@@ -50,6 +50,7 @@ h1 {
    
   }
 nav{
+    height: fit-content;
     background-color: #1d8d1b;
 }
 
@@ -66,7 +67,6 @@ h2{
     position: absolute;
     background: #1d8d1b;
     margin: 20px;
-    position: absolute;
 }
 
 .heropara{

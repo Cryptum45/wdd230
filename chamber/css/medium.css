@@ -11,10 +11,7 @@
         display: block;
     }
   
-    .hero {
-        grid-row: 1/2;
-        grid-column: 1/4;
-    }
+
     .news {
         grid-row: 2/3;
         grid-column: 1/4;
