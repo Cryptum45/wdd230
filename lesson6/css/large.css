@@ -24,7 +24,6 @@
     }
  
     .hero {
-        height: fit-content;
         grid-column: 2/4;
     }
     .news {
