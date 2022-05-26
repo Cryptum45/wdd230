@@ -20,25 +20,30 @@ const mainnav = document.querySelector('.navmenu')
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
-/*************************************************** */
-// initialize display elements
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+/****Time tell last visit*******/
+function firstVisit() {
+    var saveLastVist = new Date();
+    localStorage.setItem = saveLastVist;
+    return saveLastVist;
+}
+howLongBetweenVisits(firstVisit());
 
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
-// determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
+function howLongBetweenVisits(saveLastVist) {
+    const date1 = firstVisit();
+    const date2 = new Date();
+
+    // One day in milliseconds
+    const oneDay = 1000 * 60 * 60 * 24;
+
+    // time difference between two dates
+    const timeBetween = date2.getTime() - date1.getTime();
+
+    // # of days between visits
+    const totalDifference = Math.round(timeBetween / oneDay);
+
+    return totalDifference;
+    
 }
 
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
-
-// show todays date.
-todayDisplay.textContent = Date.now();
+document.querySelector('.lastvisit').innerHTML = howLongBetweenVisits(firstVisit())
