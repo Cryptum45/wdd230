@@ -53,11 +53,9 @@ nav{
     padding: 1rem;
 }
 
+
+
 .content{
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    display: grid;
     background-color: #46a044;
 }
 /***********************/
@@ -75,6 +73,10 @@ main h2{
 img {
     filter: blur(0em);
     transition: filter 0.20s;
+}
+
+.thankyou{
+    font-size: xx-large;
 }
 
 /***********************/
@@ -191,3 +193,4 @@ nav {
 }
 
 /***************************************************************************************/
+
