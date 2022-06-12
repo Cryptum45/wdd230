@@ -53,6 +53,18 @@ nav{
     padding: 1rem;
 }
 
+textarea {
+    display: block;
+    margin: 1rem auto;
+}
+input#Submit{
+    margin-bottom: 1rem;
+}
+pre{
+    text-align: center;
+    white-space: normal;
+}
+
 
 
 .content{
