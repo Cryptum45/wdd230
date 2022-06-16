@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    display: block;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    background-color: #edeef3;
+}
+
+header {
+    font-family: 'Merriweather', serif;
+    background-color: #0e6d0c;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
+.date{
+    padding: 10px;
+    text-align: center;
+    background-color: #46a044;
+    color: white;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+    font-size: 2em;
+    
+  }
+nav{
+    height: fit-content;
+    background-color: #1d8d1b;
+}
+
+/*********Input boxes**********/
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #fff;
+    border: 1px solid #333;
+  }
+  
+  section {
+    margin: 5px;
+    padding: 5px;
+    background-color: #D9D7F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+h2 {
+    font-size: 16px;
+    color: blue;
+}
+p {
+    font-size: 14px;
+  }
+
+h1, footer {
+    text-align: center;
+    font-family: serif;
+    font-size: 2em;
+    color: blue;
+}
+img {
+    height: 200px;
+    border: 1px solid #333;
+}
+/***********************/
+main h2{
+    text-align: center;
+    margin-bottom: 1em ;
+    margin-top: 1em;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.20s;
+}
+
+.thankyou{
+    font-size: xx-large;
+}
+
+#dot{
+   margin: 10px;
+}
+
+.title{
+    background-color: rgb(81, 184, 239);
+    margin: 10px;
+    padding: 1rem;
+   font-size: 25px;
+}
+
+input[type="text"] {
+    width: 14rem;
+}
+
+/***********************/
+
+  .navmenu {
+    list-style: none;
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  .navmenu{
+      text-align: center;
+  }
+
+  .navmenu a {
+      display: block;
+      padding: 1rem;
+     text-decoration: none;
+     color: white;
+  }
+  .navmenu a:hover {
+      background-color: #46a044;
+      color:black;
+  }
+  
+  header img{
+    height: 100px;
+    box-shadow: 0 3px 3px 3px #46a044;
+}
+
+.social img{
+    height: 48px;
+    box-shadow: none;
+}
+
+
+p {
+    padding: 10px;
+}
+
+picture{
+    box-shadow: 2 2 0 gray;
+}
+
+
+
+footer{
+    background-color: #0e6d0c;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+}
+
+footer a{
+    color: white;
+}
+
+footer p:last-of-type{
+    color: yellow;
+    font-weight: 400;
+}
+
+/*************************************************************************************/
+@media screen and (max-width: 550px){
+
+    header{
+        display: block;
+    }
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navmenu {
+	list-style: none;
+	padding: 0;
+}
+.navmenu li:first-child {
+	display: block;
+}
+.navmenu li {
+	display: none;
+}
+.navmenu a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navmenun a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+}
+
+.footerlogo{
+    width: 20%;
+}
+
+/***************************************************************************************/
+
