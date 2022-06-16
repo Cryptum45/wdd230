@@ -1,12 +1,11 @@
-header,
-main,
-footer {
+main {
   margin: 1rem;
-  position: relative;
 }
 .cards {
+  justify-content: center;
+  margin-left: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 247px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 210px));
     background-color: #fff;
     border: 1px solid #333;
   }
@@ -22,7 +21,7 @@ footer {
   }
 
 h2 {
-    font-size: 16px;
+    font-size: 19px;
     color: blue;
 }
 p {
@@ -39,3 +38,8 @@ img {
     height: 260px;
     border: 1px solid #333;
 } 
+
+section img{
+  height: 250px;
+  width: auto;
+}
