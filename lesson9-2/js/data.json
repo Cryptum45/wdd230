@@ -1,0 +1,86 @@
+
+{
+    "companies": [
+        {
+            "logo": "https://cdn0.iconfinder.com/data/icons/sea-nautical-pirate-maritime/35/24-1024.png",
+            "name": "STK Workshop",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Gold Membership"
+        },
+        {
+            "logo": "https://cdn2.iconfinder.com/data/icons/a-collection-of-virtual-gifts/100/diamond_green-2-1024.png",
+            "name": "Emerald LLC",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Gold Membership"
+        },
+        {
+            "logo": "https://cdn4.iconfinder.com/data/icons/toys-58/512/playground_slide-playground-childhood-toy-1024.png",
+            "name": "Chao Daycare",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Gold Membership"
+        },
+        {
+            "logo": "https://cdn3.iconfinder.com/data/icons/gardening-132/64/33-Digging-1024.png",
+            "name": "Tresure Hunt CO.",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Silver Membership"
+        },
+        {
+            "logo": "https://cdn4.iconfinder.com/data/icons/outdoor-fill/144/Fishing_rod-1024.png",
+            "name": "Fish 'n' Pole",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Silver Membership"
+        },
+        {
+            "logo": "https://www.iconfinder.com/icons/2548758/jewellery_jewelry_marriage_ring_rings_wedding_icon",
+            "name": "Life Saving Bonds",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Silver Membership"
+        },
+        {
+            "logo": "https://cdn3.iconfinder.com/data/icons/summer-117/128/summer-39-1024.png",
+            "name": "HI-Speed Shoes",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Bronze Membership"
+        },
+        {
+            "logo": "https://cdn0.iconfinder.com/data/icons/diversity-v2-0-volume-08/64/robot-6-1024.png",
+            "name": "Robotnik Science",
+            "phone": "555-555-5555",
+            "email": "Email@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Bronze Membership"
+        },
+        {
+            "logo": "https://cdn2.iconfinder.com/data/icons/arrows-and-boxes-1/68/ball_bounce_rubber_surface_activity_fly-1024.png",
+            "name": "Spring and Bounce",
+            "phone": "555-555-5555",
+            "email": "sEmail@email.com",
+            "url": "",
+            "address": "Green Hills",
+            "membership": "Non-Profit"
+        }
+    ]
+}
