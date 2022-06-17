@@ -7,13 +7,13 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 298px));
     background-color: #fff;
-    border: 1px solid #333;
+    border: 1px solid rgb(236, 220, 51);
   }
   
   section {
     margin: 5px;
     padding: 5px;
-    background-color: #D9D7F1;
+    background-color:  #57a855;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ main {
 
 h2 {
     font-size: 19px;
-    color: blue;
+    color: white;
 }
 p {
     font-size: 14px;
@@ -30,7 +30,7 @@ p {
 
 img {
     height: 260px;
-    border: 1px solid #333;
+    border: 1px solid rgb(236, 220, 51);
 } 
 
 section img{
