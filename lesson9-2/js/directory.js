@@ -34,7 +34,7 @@ function displayCompanies(company) {
     address.textContent = `${company.address}`;
     phone.textContent = `${company.phone}`;
     email.textContent = `${company.email}`;
-    website.innerHTML = `<a href="${company.url}" target="_blank">Commerce Website</a>`;
+    website.innerHTML = `<a href="${company.url}" target="_blank">Websites</a>`;
     membership.textContent = `${company.membership}`;
 
     logo.classList.add("logo");
