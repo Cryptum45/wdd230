@@ -5,7 +5,7 @@ main {
   justify-content: center;
   margin-left: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 210px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 298px));
     background-color: #fff;
     border: 1px solid #333;
   }
@@ -27,7 +27,7 @@ h2 {
 p {
     font-size: 14px;
   }
-  
+
 img {
     height: 260px;
     border: 1px solid #333;
