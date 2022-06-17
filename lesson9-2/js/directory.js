@@ -1,15 +1,7 @@
-const gridBtn = document.querySelector("#grid");
-const listBtn = document.querySelector("#list");
+
 const display = document.querySelector(".cards");
 
-gridBtn.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.remove("cards-list");
-});
 
-listBtn.addEventListener("click", () => {
-	display.classList.add("cards-list");
-})
 
 /* ===========================================================================================*/
 
