@@ -1,9 +1,19 @@
-
 const display = document.querySelector(".cards");
+const displayGrid = document.querySelector("#grid");
+const displayList = document.querySelector("#list");
+/***********************Grid and list display************************************** */
+displayGrid.addEventListener("click", () => {
+
+	display.classList.remove("infoCards-list");
+});
+
+displayList.addEventListener("click", () => {
+	display.classList.add("infoCards-list");
+})
 
 
 
-/* ===========================================================================================*/
+/* ******************************************************************/
 
 const URLrequest = 'https://Cryptum45.github.io/wdd230/lesson9-2/js/data.json';
 const infoCards = document.querySelector(".cards");

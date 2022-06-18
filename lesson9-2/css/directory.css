@@ -1,7 +1,7 @@
 main {
   margin: 1rem;
 }
-.cards {
+.cards-grid{
   justify-content: center;
   margin-left: 1rem;
     display: grid;
@@ -9,6 +9,18 @@ main {
     background-color: #fff;
     border: 1px solid rgb(236, 220, 51);
   }
+
+  .cards-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
   
   section {
     margin: 5px;
