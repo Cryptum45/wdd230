@@ -1,7 +1,7 @@
 main {
   margin: 1rem;
 }
-.cards-grid{
+.cards{
   justify-content: center;
   margin-left: 1rem;
     display: grid;
