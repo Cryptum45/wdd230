@@ -1,0 +1,28 @@
+main {
+  margin: 1rem;
+}
+.card{
+  height: auto;
+  width: auto;
+  background-color: azure;
+}
+figcaption{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+    font-size: 19px;
+}
+p {
+    font-size: 14px;
+  }
+
+img {
+    height: 260px;
+} 
+
+section img{
+  height: 250px;
+  width: auto;
+}
