@@ -58,79 +58,84 @@
             <span id="currentDate"></span>
 
        </div>
-        <main>
-            <div class="hero">
-                <h2>Welcome to Hill Shire</h2>
-               <picture class="heropic">
-                <source media="(min-width: 500px) and (max-width: 799px)" srcset="images/greenhills.jpg">
-                <source media="(min-width: 800px)" srcset="images/greenhills.jpg">
-                <img src="images/greenhills.jpg" alt="Pic">
-            </picture>
-            </div>
-            <div class="event">
-                <h4>Event</h4>
-                <br>
-                <img src="images/cat.jpg" alt="eventpic" >
-                <p>Come and meet big the Cat! Big the cat will be making an appereance on Saturday at 10am
-                    Come and get your picture taken with Green Hills most famous cat!
-                </p>
-            </div>
-            <div class="weather">
-                <h4>Weather</h4>
-                <br>
-                <img src="images/Weatherpic.png" alt="weatherpic" >
-                <p>Currently: Cloudy</p>
-                <p>High: 
-                <span id="temp">72</span>°F</p>
-                <p>Wind Chill: <span id="windchill"></span>°F</p>
-                <p>Humidity: 40%</p>
-                <p>Wind Speed: 
-                <span id="windspeed">2</span>mph </p>
-            </div>
-            <div class="news">
-                <h4> News release</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minima optio.
-                     Magnam, rem sit architecto sint quos doloribus dolorem deleniti accusamus dignissimos adipisci, tempore, quisquam suscipit optio vitae? Voluptates, vero.
-                </p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Vitae omnis quibusdam sapiente corrupti ex veniam suscipit neque facilis soluta, temporibus nihil officia nulla provident voluptatem. Alias dicta laudantium inventore nam!</p>
+       <main>
+        <div class="hero">
+            <h2>Welcome to Hill Shire</h2>
+           <picture class="heropic">
+            <source media="(min-width: 500px) and (max-width: 799px)" srcset="images/greenhills.jpg">
+            <source media="(min-width: 800px)" srcset="images/greenhills.jpg">
+            <img src="images/greenhills.jpg" alt="Pic">
+        </picture>
+        </div>
+        <div class="event">
+            <h4>Event</h4>
+            <br>
+            <img src="images/cat.jpg" alt="eventpic" >
+            <p>Come and meet big the Cat! Big the cat will be making an appereance on Saturday at 10am
+                Come and get your picture taken with Green Hills most famous cat!
+            </p>
+        </div>
+        <div class="weather">
+            <h4>Weather</h4>
+            <p>The current temperature in Green Hills, Iowa is <span id="current-temp"></span> &deg;F</p>
+            <p>Current Condition Icon</p>
+            <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+            </figure>
+            <span id="sourced">**Information sourced by <a href="https://openweathermap.org/city/5781860" target="_blank">OpenWeatherMap</a></span>
+            <p>Wind Chill: <span id="windchill"></span>°F</p>
+            <p>Humidity: 40%</p>
+            <p>Wind Speed: 
+            <span id="windspeed">2</span>mph </p>
 
+
+        </div>
+        <div class="news">
+            <h4> News release</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minima optio.
+                 Magnam, rem sit architecto sint quos doloribus dolorem deleniti accusamus dignissimos adipisci, tempore, quisquam suscipit optio vitae? Voluptates, vero.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Vitae omnis quibusdam sapiente corrupti ex veniam suscipit neque facilis soluta, temporibus nihil officia nulla provident voluptatem. Alias dicta laudantium inventore nam!</p>
+
+        </div>
+        <div class="spotlight">
+            <div class="spotlight1">
+                <h3>STK Workshop</h3>
+                <img class="spotimg" src="images/goggles.png" alt="spotlightpic" >
+                <p>Building your dreams. Come and visit us and let us help you achive your goal</p>
             </div>
-            <div class="spotlight">
-                <div class="spotlight1">
-                    <h3>STK Workshop</h3>
-                    <img src="images/goggles.png" alt="spotlightpic" >
-                    <p>Building your dreams. Come and visit us and let us help you achive your goal</p>
-                </div>
-                <div class="spotlight2">
-                    <h3>Emerald LLC.</h3>
-                    <img src="images/emerald.png" alt="spot2" >
-                    <p>For that special one, get these super emeralds, at hyper prices you'll love. </p>
-                </div>
-                <div class="spotlight3" id="large">
-                    <h3>Chao Daycare</h3>
-                    <img src="images/slide.png" alt="spot3" >
-                    <p>Come and visit us!</p>
-                </div>
+            <div class="spotlight2">
+                <h3>Emerald LLC.</h3>
+                <img class="spotimg" src="images/emerald.png" alt="spot2" >
+                <p>For that special one, get these super emeralds, at hyper prices you'll love. </p>
             </div>
-            <div class="join">
-                <a class="join2" href="join.html" target="_blank">Join the Chamber</a>
-                <p>Discover how to join the chamber of commerce and how it will benefit your organization! </p>
+            <div class="spotlight3" id="large">
+                <h3>Chao Daycare</h3>
+                <img class="spotimg" src="images/slide.png" alt="spot3" >
+                <p>Your little ones are our priority</p>
             </div>
-        </main>
-        <footer class="footlogo">
-            <img class="footerlogo" src="images/hills.png" alt="Logo">
-            <p>123 E 456 S Green Hills</p>
-            <p>&#x1F4CD Location map</p>
-            <p>info@hillshire.com</p>
-            <p>(555)555-5555</p>
-        </footer>
-        <footer>
-            <p>&copy; <span id="currentYear"></span >Hill Shire Commerce | Dallan Bird | Utah | WDD Project
-            <p>Last Updated: <span id="updatedDate"></span></p>
-        </footer>
-    </div>
-    <script src="js/windchill.js"></script>
-    <script src="js/script.js"></script>
+        </div>
+        <div class="join">
+            <a class="join2" href="join.html" target="_blank">Join the Chamber</a>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization! </p>
+        </div>
+    </main>
+    <footer class="footlogo">
+        <img class="footerlogo" src="images/hills.png" alt="Logo">
+        <p>123 E 456 S Green Hills</p>
+        <p>&#x1F4CD Location map</p>
+        <p>info@hillshire.com</p>
+        <p>(555)555-5555</p>
+    </footer>
+    <footer>
+        <p>&copy; <span id="currentYear"></span >Hill Shire Commerce | Dallan Bird | Utah | WDD Project
+        <p>Last Updated: <span id="updatedDate"></span></p>
+    </footer>
+</div>
+<script src="js/weatherapi.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

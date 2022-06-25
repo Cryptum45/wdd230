@@ -1,4 +1,4 @@
-const temp = document.getElementById('temp').innerHTML;
+const temp = document.querySelector('#current-temp');
 const windspeed = document.getElementById('windspeed').innerHTML;
 
 
