@@ -34,7 +34,7 @@ main {
 
 h2 {
     font-size: 19px;
-    color: white;
+    color: gold;
 }
 p {
     font-size: 14px;
@@ -42,7 +42,7 @@ p {
 
 img {
     height: 260px;
-    border: 1px solid rgb(236, 220, 51);
+    
 } 
 
 section img{
