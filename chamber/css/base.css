@@ -55,6 +55,10 @@ nav{
     background-color: #1d8d1b;
 }
 
+button#close {
+    padding: 2px;
+}
+
 
 /*Hero stuff*/
 .heropic img{

@@ -10,15 +10,24 @@ main {
     border: 1px solid rgb(236, 220, 51);
   }
 
-  .cards-list {
+  .infoCards-list {
     display: flex;
     flex-direction: column;
     margin: 0 2rem 2rem 2rem;
 }
 
+.infoCards-list img{
+  display: none;
+}
+
 .buttons{
   display: flex;
   justify-content: center;
+}
+
+.infoCards-list section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
   
