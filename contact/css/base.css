@@ -47,29 +47,18 @@ nav{
     background-color: #1d8d1b;
 }
 
+
+
 /*********Input boxes**********/
-.input-box {
-    margin: 1rem;
-    padding: 1rem;
+.contact{
+    margin: 10px;
+	grid-template-columns: 1fr;
+	display: grid;
+	background-color: rgb(201, 199, 199);
 }
 
-textarea {
-    width: 50%;
-    display: block;
-    margin: 1rem auto;
-}
-input#Submit{
-    margin-bottom: 1rem;
-}
-pre{
-    text-align: center;
-    white-space: normal;
-}
-
-
-
-.content{
-    background-color: #46a044;
+.contact p{
+    font-size: 25px;
 }
 /***********************/
 main h2{
