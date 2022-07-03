@@ -52,9 +52,11 @@ nav{
 /*********Input boxes**********/
 .contact{
     margin: 10px;
-	grid-template-columns: 1fr;
-	display: grid;
 	background-color: rgb(201, 199, 199);
+}
+
+.station{
+    width: 500px;
 }
 
 .contact p{
