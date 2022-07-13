@@ -1,0 +1,60 @@
+main {
+  margin: 1rem;
+}
+.cards{
+  justify-content: space-evenly;
+  margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 298px));
+    background-color: #fff;
+    border: 1px solid rgb(236, 220, 51);
+  }
+
+  .infoCards-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.infoCards-list img{
+  display: none;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.infoCards-list section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+  
+  section {
+    margin: 5px;
+    padding: 5px;
+    background-color:  #57a855;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+h2 {
+    font-size: 19px;
+    color: gold;
+}
+p {
+    font-size: 14px;
+  }
+
+img {
+    height: 260px;
+    
+} 
+
+section img{
+  height: 250px;
+  width: auto;
+}

@@ -1,0 +1,59 @@
+
+{
+    "companies": [
+        {
+            "logo": "https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg",
+            "name": "Payson Temple",
+            "phone": "801-754-4949",
+            "email": "LDSEmail@email.com",
+            "url": "",
+            "address": "1494 S 930 W Payson, Utah, United States",
+            "services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"25th January 2010, Announced. 8th October 2011, Groundbreaking. 7th June 2015, Dedicated — dedicatory prayer",
+            "ordinance":"Baptism, Initiatory, Endowment, Sealing",
+            "session":"",
+            "closure":"Saturday, 1 October 2022, Monday, 10 October 2022 - Monday, 17 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Friday, 23 December 2022 (Limited Operations), Saturday, 24 December 2022, Saturday, 31 December 2022 (Limited Operations)"  
+            
+            
+        },
+        {
+            "logo": "https://assets.ldscdn.org/f3/85/f38513cc90a30a2095d0891fb1b1a9419fcfeba5/manti_temple_lds.jpeg",
+            "name": "Manti Temple",
+            "phone": "Currently Closed",
+            "email": "LDSEmail@email.com",
+            "url": "",
+            "address": "200 E 510 N Manti, Utah, United States",
+            "services":"Currently Closed",
+            "history":"June 25th 1875, Annouced. April 25 1877, Groundbreaking. May 21st 1888, Dedicated. June 14th 1985, Rededicated ",
+            "ordinance":"Baptism, Initiatory, Endowment, Sealing",
+            "session":"Currently Closed",
+            "closure":"Currently Closed"  
+        },
+        {
+            "logo": "https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg",
+            "name": "Jordan River Temple",
+            "phone": "801-254-3003",
+            "email": "LDSEmail@email.com",
+            "url": "",
+            "address": "10200 S Temple Drive South Jordan UT 84095-8814 United States",
+            "services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"3 February 1978, Announced. 9 June 1979, Groundbreaking. 16 November 1981, Dedicated — dedicatory prayer. 20 May 2018, Rededicated — dedicatory prayer",
+            "ordinance":"Baptism, Initiatory, Endowment, Sealing",
+            "session":"",
+            "closure":"Saturday, 1 October 2022, Monday, 31 October 2022 - Monday, 14 November 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022 (Limited Operations)"  
+        },
+        {
+            "logo": "https://assets.ldscdn.org/98/e0/98e05cb168f7720698c8dd2dcf171754e4676f4f/trujillo_peru_temple_exterior.jpg",
+            "name": "Trujillo Peru Temple",
+            "phone": "(51) 44-602-130",
+            "email": "LDSEmail@email.com",
+            "url": "",
+            "address": "",
+            "services":"No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "history":"26 November 2008, Announced. 14 September 2011, Groundbreaking. 21 June 2015, Dedicated — dedicatory prayer.",
+            "ordinance":"Baptism, Initiatory, Endowment, Sealing",
+            "session":"",
+            "closure":"Thursday, 28 July 2022 - Friday, 29 July 2022, Saturday, 1 October 2022, Saturday, 24 December 2022 Saturday, 31 December 2022"
+        }
+    ]
+}
