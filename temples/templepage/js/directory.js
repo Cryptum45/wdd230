@@ -1,7 +1,7 @@
 
 /* ******************************************************************/
 
-const URLrequest = 'https://Cryptum45.github.io/wdd230/templeinn&suits/js/data.json';
+const URLrequest = 'https://Cryptum45.github.io/wdd230/temples/js/data.json';
 const infoCards = document.querySelector(".cards");
 
 fetch(URLrequest)
