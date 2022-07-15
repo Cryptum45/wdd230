@@ -1,14 +1,7 @@
 main {
   margin: 1rem;
 }
-.cards{
-  justify-content: space-evenly;
-  margin-left: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 298px));
-    background-color: #fff;
-    border: 1px solid rgb(236, 220, 51);
-  }
+
 
   .infoCards-list {
     display: flex;
@@ -27,23 +20,25 @@ main {
 
 .infoCards-list section{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
   
   section {
     margin: 5px;
     padding: 5px;
-    background-color:  #57a855;
+    background-color: rgb(188, 186, 186);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    box-shadow:black 1px 2px 1px;
   }
 
 h2 {
+  text-shadow: black 1px 1px 1px;
     font-size: 19px;
-    color: gold;
+    color: white;
 }
 p {
     font-size: 14px;

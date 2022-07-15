@@ -21,12 +21,12 @@ function displayTemples(temple) {
     let address = document.createElement("p");
     let phone = document.createElement("p");
     let email = document.createElement("p");
-    let website = document.createElement("p");
     let services = document.createElement("p");
     let ordinance = document.createElement("p");
     let history = document.createElement("p");
     let session = document.createElement("p");
     let closure = document.createElement("p");
+    let contact = document.createElement("h3");
 
     logo.setAttribute('src', temple.logo);
     logo.setAttribute('alt', `${temple.name}'s logo`);
@@ -34,35 +34,39 @@ function displayTemples(temple) {
     address.textContent = `${temple.address}`;
     phone.textContent = `${temple.phone}`;
     email.textContent = `${temple.email}`;
-    website.innerHTML = `<a href="${temple.url}" target="_blank">Websites</a>`;
     services.textContent = `${temple.services}`;
     ordinance.textContent = `${temple.ordinance}`;
     history.textContent = `${temple.history}`;
     session.textContent = `${temple.session}`;
     closure.textContent = `${temple.closure}`;
+    contact.textContent = `${temple.contact}`;
 
+
+
+    /****************order of how they will appear******************/
     logo.classList.add("logo");
     name.classList.add("name");
     address.classList.add("address");
+    contact.classList.add("contact");
     phone.classList.add("phone");
     email.classList.add("email");
-    website.classList.add("website");
     services.classList.add("services");
     ordinance.classList.add("ordinace");
     history.classList.add("history");
     session.classList.add("session");
     closure.classList.add("closure");
+    
 
     card.appendChild(name);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(email);
-    card.appendChild(website);
     card.appendChild(services);
     card.appendChild(ordinance);
     card.appendChild(history);
     card.appendChild(session);
     card.appendChild(closure);
+    card.appendChild(contact);
     card.appendChild(logo);
     infoCards.appendChild(card);
 }
