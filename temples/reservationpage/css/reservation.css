@@ -1,0 +1,139 @@
+body {
+	background: #ececec;
+	font-family: 'Lato';
+	padding: 10px 0;
+	margin: 0;
+	font-size: 14px;
+	overflow-x: hidden;
+	min-width: 345px;
+}
+* {
+	box-sizing: border-box;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+form {
+	max-width: 768px;
+	display: block;
+	background: rgb(13, 13, 13);
+	padding: 25px;
+	margin: 40px auto;
+	box-shadow: 0 4px 10px 4px  #a0e4f0c8;
+	color: #fff;
+}
+
+fieldset {
+	border: none;
+	margin: 10px auto;
+}
+
+legend {
+		margin: 30px 0 0;
+		font-size: 24px;
+		font-weight: 700;
+}
+
+.double-input {
+	margin: 20px auto;
+
+
+}
+
+.form-input-container {
+		float: left;
+		width: 48%;
+		margin-bottom: 10px;
+		margin: 0 1% 10px;
+	}
+
+.form-input-container:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+
+.form-input-container
+	label {
+		display: block;
+		margin-bottom: 10px;
+	}
+	
+.date-select select {
+		width: 47%;
+    }
+
+select:first-of-type {
+	margin-right: 3%;
+	}
+	
+select {
+    width: 100%;
+	color: white;
+	background: transparent;
+	border: 1px solid #a9a9a9;
+	padding: 8px;
+	height: 35px;
+ }
+
+.form-input-container:focus {
+	border: 1px solid #7b8a7b;
+}
+
+option {
+	color: black;
+}
+	
+input {
+	width: 100%;
+	color: white;
+	padding: 8px;
+	height: 35px;
+	background: transparent;
+	border: 1px solid #a9a9a9;
+    }
+
+input:focus {
+    border: 1px solid #5461d8;
+}
+
+button[type="submit"] {
+    color: white;
+	height: 50px;
+	width: 300px;
+	background: #5461d8;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 50px;
+	font-family: 'Lato';
+	box-shadow: 0px 0px 10px rgb(197, 197, 197);
+	display: block;
+	margin: 0 auto;
+}
+
+
+.input-box {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+input#Submit{
+    margin-bottom: 1rem;
+}
+pre{
+    text-align: center;
+    white-space: normal;
+}

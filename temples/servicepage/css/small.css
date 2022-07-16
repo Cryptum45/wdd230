@@ -12,6 +12,7 @@ nav {
 }
 
 .navmenu {
+	display: block;
 	list-style: none;
 	padding: 0;
 }
@@ -36,6 +37,18 @@ nav {
 	color: black;
 	background-color: black;
 }
+
+/**********************************/
+.servicecards {
+    padding: 20px;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+
+
+/*************************************/
 
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.

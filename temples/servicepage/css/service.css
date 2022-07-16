@@ -1,0 +1,53 @@
+.servicecards {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    box-shadow: 0px 0px 10px rgb(197, 197, 197);
+}
+
+h2{
+    padding: 5px;
+    text-shadow: rgb(113, 113, 113) 1px 1px 1px;
+    font-size: xx-large;
+}
+
+h3{
+    text-shadow: black 1px 1px 1px;
+    color: white;
+    font-size: xx-large;
+}
+
+img.sectionimg {
+    width: 60%;
+    padding: 10px;
+}
+
+.special{
+    padding: 40px;
+    background-color: rgb(98, 98, 98);
+    margin: 5px;
+    box-shadow: 0px 0px 10px  #5461d8;
+   
+}
+
+.amenites{
+    padding: 40px;
+    background-color: rgb(98, 98, 98);
+    margin: 5px;
+    box-shadow: 0px 0px 10px  #5461d8;
+    
+}
+
+ul{
+    text-shadow: black 1px 1px 1px;
+    font-size: 19px;
+    color: white;
+    text-align: left;
+}
+
+button#Submit {
+    padding: 5px;
+    margin: 5px;
+}
+

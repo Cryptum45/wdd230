@@ -12,6 +12,7 @@ nav {
 }
 
 .navmenu {
+	display: block;
 	list-style: none;
 	padding: 0;
 }

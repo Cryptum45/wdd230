@@ -41,7 +41,9 @@ nav{
     height: fit-content;
     background-color: #a0e4f0c8;
 }
-
+span#currentDate {
+    display: none;
+   }
 
 
 /***********************/
