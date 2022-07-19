@@ -1,0 +1,31 @@
+h2{
+    padding: 5px;
+    text-shadow: rgb(113, 113, 113) 1px 1px 1px;
+    font-size: xx-large;
+}
+
+h4{
+    padding: 5px;
+    text-shadow: rgb(113, 113, 113) 1px 1px 1px;
+    font-size: xx-large;
+}
+
+.templeStuff{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.reserve{
+    background-color: #5461d8;
+    box-shadow: 1px 1px 1px black;
+}
+
+.weather{
+    box-shadow: 1px 1px 1px black;
+    background-color:  #5461d8;
+}
+
+.aboutUs{
+    box-shadow: 1px 1px 1px black;
+    background-color: grey;
+}

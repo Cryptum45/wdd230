@@ -50,4 +50,9 @@ button#Submit {
     padding: 5px;
     margin: 5px;
 }
+#otherPage{
+    color: white;
+    margin: 10px;
+    background-color: rgb(98, 98, 98);
+}
 

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Dallan Bird">
-    <meta name="description" content="Temples and some information abou them. ">
+    <meta name="description" content="Informaton about the page">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>Temple page</title>
+    <title>Home page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <link href="css/base.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
-    <link href="css/temple.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
    
 
@@ -40,15 +40,48 @@
                     <li>
                         <a href="/reservationpage/reservation.html">Reservation</a>
                     </li>
-                    
+
                 </ul>
             </nav>
         </header>
     <main>
-        <h3>Temples</h3>
-      <div class="cards">
+        <h2>Main page</h2>
+    <div class="templeStuff">
+        <div class="templeHero">
+            <img src="images/payson_utah_temple.jpg">
+            <p></p>
+        </div>
+        <div class="infoCard">
+            <p>Payson temple</p>
+        </div>
 
-      </div>
+    </div>
+    <div class="cards">
+        <div class="weather">
+            <h4>Weather</h4>
+            <br>
+            <img src="images/Weatherpic.png" alt="weatherpic" >
+            <p>Currently: Cloudy</p>
+            <p>High: 
+            <span id="temp">70</span>°F</p>
+            <p>Wind Chill: <span id="windchill">0</span>°F</p>
+            <p>Humidity: 40%</p>
+            <p>Wind Speed: 
+            <span id="windspeed">11</span>mph </p>
+        </div>
+        <div class="aboutUs">
+            <h4>What is Temple inn and suites?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptate error architecto,
+             fugiat sequi accusamus nihil sed ut commodi, veritatis dolorum ad expedita ipsa asperiores voluptates numquam tempore, quae quisquam?</p>
+        </div>
+        <div class="reserve">
+            <h4>Reserve here!</h4>
+            <p>Pick from our 4 locations</p>
+
+
+        </div>
+    </div>
+
     </main>
         <footer>
             <p>&copy; <span id="currentYear"></span >Temple inn and Suites| Dallan Bird | Utah | WDD Project
@@ -64,6 +97,6 @@
         </footer>
     </div>
     <script src="js/script.js"></script>
-    <script src="js/temple.js"></script>    
+    <script src="js/weather.js"></script>
 </body>
 </html>

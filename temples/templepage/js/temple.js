@@ -14,7 +14,8 @@ fetch(URLrequest)
     temples.forEach(displayTemples);
 });
 
-function displayTemples(temple) {
+function displayTemples(temple, i) {
+
     let card = document.createElement("section");
     let logo = document.createElement("img");
     let name = document.createElement("h2");
@@ -26,7 +27,8 @@ function displayTemples(temple) {
     let history = document.createElement("p");
     let session = document.createElement("p");
     let closure = document.createElement("p");
-    let contact = document.createElement("h3");
+    let button  = document.createElement("button")
+  
 
     logo.setAttribute('src', temple.logo);
     logo.setAttribute('alt', `${temple.name}'s logo`);
@@ -39,15 +41,38 @@ function displayTemples(temple) {
     history.textContent = `${temple.history}`;
     session.textContent = `${temple.session}`;
     closure.textContent = `${temple.closure}`;
-    contact.textContent = `${temple.contact}`;
+    button.textContent = `${temple.button}`;
+
+   
+if(localStorage.getItem('button' + i) ){
+    // passed 
+    let passed = localStorage.getItem('button' + i) === 'true';
+    if (passed) button.classList.add("liked");
+}
+else {
+    //failed
+    localStorage.setItem('button' + i, 'failed')
+}
+
+button.addEventListener('click', function(){
+if (this.classList.includes("liked")){
+    localStorage.setItem('button' + i, 'failed')
+}
+else{
+    localStorage.setItem('button' + i, 'true')
+    
+}
+
+   this.classList.toggle('liked')
+
+})
 
 
-
-    /****************order of how they will appear******************/
+  
     logo.classList.add("logo");
     name.classList.add("name");
     address.classList.add("address");
-    contact.classList.add("contact");
+    
     phone.classList.add("phone");
     email.classList.add("email");
     services.classList.add("services");
@@ -55,6 +80,7 @@ function displayTemples(temple) {
     history.classList.add("history");
     session.classList.add("session");
     closure.classList.add("closure");
+    button.classList.add("button");
     
 
     card.appendChild(name);
@@ -66,7 +92,13 @@ function displayTemples(temple) {
     card.appendChild(history);
     card.appendChild(session);
     card.appendChild(closure);
-    card.appendChild(contact);
+   
     card.appendChild(logo);
+    card.appendChild(button);
     infoCards.appendChild(card);
+
+
+
 }
+
+
