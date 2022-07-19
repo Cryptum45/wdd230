@@ -55,7 +55,7 @@ else {
 }
 
 button.addEventListener('click', function(){
-if (this.classList.includes("liked")){
+if (this.classList.contains("liked")){
     localStorage.setItem('button' + i, 'failed')
 }
 else{
