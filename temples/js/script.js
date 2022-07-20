@@ -23,3 +23,17 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 /**********************************************************************************************/
+
+
+
+/***********temp warning*************/
+const banner = document.getElementById("meeting");
+if (d === 1 || d === 2) {
+    banner.style.display = "block";
+}
+
+const close = document.getElementById("close");
+
+close.addEventListener("click", () => {
+    banner.style.display = "none";
+});

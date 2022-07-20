@@ -11,21 +11,48 @@ h4{
 }
 
 .templeStuff{
+    color: white;
+    background-color:rgb(113, 113, 113) ;
+    box-shadow: 1px 1px 1px black ;
+    padding: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.infoCard{
+    text-align: left;
 }
 
 .reserve{
+    color: white;
     background-color: #5461d8;
     box-shadow: 1px 1px 1px black;
 }
 
 .weather{
+    color: white;
     box-shadow: 1px 1px 1px black;
     background-color:  #5461d8;
 }
 
 .aboutUs{
+    color: white;
     box-shadow: 1px 1px 1px black;
     background-color: grey;
+}
+
+#weatherAlert {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #8bd1ed;
+    color: black;
+}
+
+a{
+    color: white;
+}
+
+li{
+    list-style: none;
 }

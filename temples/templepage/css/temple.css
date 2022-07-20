@@ -65,5 +65,12 @@ section img{
 }
 
 .liked{
-background-color: green;
+margin: 5px;
+padding: 5px;
+background-color: rgb(202, 202, 202);
+}
+
+button{
+  margin: 5px;
+  padding: 5px;
 }

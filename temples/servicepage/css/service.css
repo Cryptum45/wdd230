@@ -18,6 +18,12 @@ h3{
     font-size: xx-large;
 }
 
+h4{
+    text-shadow: black 1px 1px 1px;
+    color: white;
+    font-size: xx-large;
+}
+
 img.sectionimg {
     width: 60%;
     padding: 10px;
@@ -54,5 +60,27 @@ button#Submit {
     color: white;
     margin: 10px;
     background-color: rgb(98, 98, 98);
+}
+
+.templeStuff{
+    color: white;
+    background-color:rgb(113, 113, 113) ;
+    box-shadow: 1px 1px 1px black ;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+img.receptionImg {
+    width: 60%;
+}
+
+.infoCard{
+    text-align: left;
+}
+
+strong{
+    text-shadow: black 1px 1px 1px;
+    font-size:larger;
 }
 
