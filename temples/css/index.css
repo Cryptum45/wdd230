@@ -65,16 +65,22 @@ li{
 }
 
 .dayOne{
+    padding: 10px;
+    color: white;
     background-color: #5461d8;
     margin: 10px;
 }
 
 .dayTwo{
+    padding: 10px;
+    color: white;
     background-color:rgb(158, 158, 158) ;
     margin: 10px;
 }
 
 .dayThree{
+    padding: 10px;
+    color: white;
     background-color: #5461d8;
     margin: 10px;
 }

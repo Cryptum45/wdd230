@@ -48,7 +48,6 @@ async function apiFetch(apiURL){
 }
 
 function displayResults(weatherData){
-    console.log(weatherData);
     calChill(weatherData.current.wind_speed.toFixed(1), weatherData.current.temp.toFixed(1))
     windSpeed.innerHTML = weatherData.current.wind_speed.toFixed(1);
     currentTemp.innerHTML = weatherData.current.temp.toFixed(1);
@@ -98,7 +97,6 @@ let windchill1 = 35.74 + (0.6215 * temp1) - (35.75 * Math.pow(windspeed1, .16)) 
 
 
 function displayResults1(weatherData){
-    console.table(weatherData)
     calChill1(weatherData.daily[0].wind_speed.toFixed(1), weatherData.daily[0].temp.day)
     windSpeed1.innerHTML = weatherData.daily[0].wind_speed.toFixed(1);
     currentTemp1.innerHTML = weatherData.daily[0].temp.day;
@@ -138,7 +136,7 @@ let windchill2 = 35.74 + (0.6215 * temp2) - (35.75 * Math.pow(windspeed2, .16)) 
 
 
 function displayResults2(weatherData){
-    console.table(weatherData)
+
     calChill2(weatherData.daily[1].wind_speed.toFixed(1), weatherData.daily[1].temp.day)
     windSpeed2.innerHTML = weatherData.daily[1].wind_speed.toFixed(1);
     currentTemp2.innerHTML = weatherData.daily[1].temp.day;
@@ -178,7 +176,6 @@ let windchill3 = 35.74 + (0.6215 * temp3) - (35.75 * Math.pow(windspeed3, .16)) 
 
 
 function displayResults3(weatherData){
-    console.table(weatherData)
     calChill3(weatherData.daily[2].wind_speed.toFixed(1), weatherData.daily[2].temp.day)
     windSpeed3.innerHTML = weatherData.daily[2].wind_speed.toFixed(1);
     currentTemp3.innerHTML = weatherData.daily[2].temp.day;
