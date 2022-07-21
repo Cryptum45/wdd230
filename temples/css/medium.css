@@ -34,7 +34,22 @@
 
 /***************************************************************/
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.templeStuff{
+    display: inline-block;
+}
+
+.weather{
+    margin: 10px;
+}
+
+.aboutUs{
+    margin: 10px;
+}
+
+.reserve{
+    margin: 10px;
+}
+
+img.paysonImg {
+    width: 100%;
 }

@@ -56,3 +56,31 @@ a{
 li{
     list-style: none;
 }
+
+.threeDay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #8bd1ed;
+    margin: 10px;
+}
+
+.dayOne{
+    background-color: #5461d8;
+    margin: 10px;
+}
+
+.dayTwo{
+    background-color:rgb(158, 158, 158) ;
+    margin: 10px;
+}
+
+.dayThree{
+    background-color: #5461d8;
+    margin: 10px;
+}
+
+.head {
+    background-color: #a0e4f0c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

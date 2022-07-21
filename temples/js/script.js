@@ -27,7 +27,7 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 
 /***********temp warning*************/
-const banner = document.getElementById("meeting");
+const banner = document.getElementById("weatherAlert");
 if (d === 1 || d === 2) {
     banner.style.display = "block";
 }

@@ -84,3 +84,12 @@ strong{
     font-size:larger;
 }
 
+a{
+    color: wheat;
+}
+
+.head {
+    background-color: #a0e4f0c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

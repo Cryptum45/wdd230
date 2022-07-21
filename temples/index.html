@@ -24,8 +24,9 @@
     
     <div class="container">
         <header>
+            <div class="head"> <img class="logo" src="images/logo.png" alt="logo"> <h1>Temple Inn and Suites</h1></div>
             <nav>
-                <img class="logo" src="images/logo.png" alt="logo"> <h1>Temple inn and suites</h1>
+                
                 <ul class="navmenu">
                     <li><a class="ham" href="#">Menu</a></li>
                     <li>
@@ -45,11 +46,11 @@
             </nav>
         </header>
     <main>
-        <div id="weatherAlert"> Weather Alert!  <button id="close">X</button></div>
+        <div id="weatherAlert"> Weather Alert! <span id="weatherMess"></span>  <button id="close">X</button></div>
         <h2>Main page</h2>
     <div class="templeStuff">
         <div class="templeHero">
-            <img src="images/payson_utah_temple.jpg">
+            <img class="paysonImg" src="images/payson_utah_temple.jpg" alt="Payson">
         </div>
         <div class="infoCard">
             <h4>Payson temple</h4>
@@ -69,15 +70,19 @@
     <div class="cards">
         <div class="weather">
             <h4>Weather</h4>
+            <p>The current temperature in Montgomery Ln, Bethesda, MD is:  <br> <span id="current-temp"></span> &deg;F</p>
+            <p>Current Condition Icon</p>
+            <figure>
+            <img src="weather" alt="weather" id="weather-icon" />
+            <figcaption></figcaption>
+            </figure>
+            <span id="sourced">**Information sourced by <a href="https://openweathermap.org/city/5781860" target="_blank">OpenWeatherMap</a></span>
             <br>
-            <img src="images/Weatherpic.png" alt="weatherpic" >
-            <p>Currently: Cloudy</p>
-            <p>High: 
-            <span id="temp">70</span>°F</p>
-            <p>Wind Chill: <span id="windchill">0</span>°F</p>
-            <p>Humidity: 40%</p>
-            <p>Wind Speed: 
-            <span id="windspeed">11</span>mph </p>
+            <strong class="weatherInfo">Wind Speed: <span id="currentSpeed"></span> mph</strong>
+            <br>
+            <strong class="weatherInfo">WindChill: <span id="windChill"></span></strong>
+
+
         </div>
         <div class="aboutUs">
             <h4>What is Temple inn and suites?</h4>
@@ -108,6 +113,52 @@
             </ul>
 
         </div>
+    </div>
+    <h4>Three day forcast</h4>
+    <div class="threeDay">
+        <!-------Day 1----------->
+        <div class="dayOne">
+                <p>The current temperature in Montgomery Ln, Bethesda, MD is:  <br> <span id="current-temp1"></span> &deg;F</p>
+                <p>Current Condition Icon</p>
+                <figure>
+                <img src="weather" alt="weather" id="weather-icon1" />
+                <figcaption></figcaption>
+                </figure>
+                <span id="sourced">**Information sourced by <a href="https://openweathermap.org/city/5781860" target="_blank">OpenWeatherMap</a></span>
+                <br>
+                <strong class="weatherInfo">Wind Speed: <span id="currentSpeed1"></span> mph</strong>
+                <br>
+                <strong class="weatherInfo">WindChill: <span id="windChill1"></span></strong>
+        </div>
+        <!--------Day 2------------->
+        <div class="dayTwo">
+            <p>The current temperature in Montgomery Ln, Bethesda, MD is:  <br> <span id="current-temp2"></span> &deg;F</p>
+            <p>Current Condition Icon</p>
+            <figure>
+            <img src="weather" alt="weather" id="weather-icon2" />
+            <figcaption></figcaption>
+            </figure>
+            <span id="sourced">**Information sourced by <a href="https://openweathermap.org/city/5781860" target="_blank">OpenWeatherMap</a></span>
+            <br>
+            <strong class="weatherInfo">Wind Speed: <span id="currentSpeed2"></span> mph</strong>
+            <br>
+            <strong class="weatherInfo">WindChill: <span id="windChill2"></span></strong>
+    </div>
+    <!------------Day 3-------------->
+    <div class="dayThree">
+        <p>The current temperature in Montgomery Ln, Bethesda, MD is:  <br> <span id="current-temp3"></span> &deg;F</p>
+        <p>Current Condition Icon</p>
+        <figure>
+        <img src="weather" alt="weather" id="weather-icon3" />
+        <figcaption></figcaption>
+        </figure>
+        <span id="sourced">**Information sourced by <a href="https://openweathermap.org/city/5781860" target="_blank">OpenWeatherMap</a></span>
+        <br>
+        <strong class="weatherInfo">Wind Speed: <span id="currentSpeed3"></span> mph</strong>
+        <br>
+        <strong class="weatherInfo">WindChill: <span id="windChill3"></span></strong>
+</div>
+
     </div>
 
     </main>
